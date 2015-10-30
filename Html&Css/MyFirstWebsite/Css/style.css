@@ -1,0 +1,18 @@
+div
+{
+  margin: auto;
+  width:600px;
+  background:#e3e3e3;
+  border: 200px;
+}
+#a{
+  background: #e3e3e3;
+}
+
+.quote{
+  border: 5px solid white;
+  padding: 5px;
+  background-color: inherit;
+  text-align: center;
+  background-position: center;
+}
