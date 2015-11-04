@@ -8,9 +8,15 @@
   padding-bottom: 0px;
 }
 
+body
+{
+  margin: 0px !important;
+  padding: 0px !important;
+}
 
 .entire{background-color: #e3e3e3;}
 
+.info{width:960px; }
 .sign_up:hover
 {
   color: black;font-size: 20px;box-shadow: rgb(222, 126, 7) 0px 5px 0px 0px;
@@ -111,20 +117,20 @@ nav li:first-child
 }
 nav li a:active{color:black;}
 nav ul{color: black;padding-left: 0px; margin-bottom: 0px;padding-top: none;margin: 0px;}
-nav li a{text-decoration: none;color: #2EB82E;}
+nav li a{text-decoration: none;color: rgb(222, 126, 7);}
 nav li a:hover{color:black;}
 nav li
 {
   font-family:'Libre Baskerville', serif;
-  font-size: 0.75em;
+  font-size: 1em;
   margin-top: -10px;
   margin-bottom: 0px;
   padding-left: 2px;
   text-align:  center;
   display: inline;
-  text-transform: uppercase;
 }
 
+.grid_6:last-of-type{margin-bottom: 10px;}
 .grid_6
 {
   font-family: 'Titillium Web', sans-serif;
@@ -132,9 +138,11 @@ nav li
   height: 300px;
   line-height: 20px;
   background: #e5e5e5;
+  padding: 0px;
+  margin: 0px;
 }
-.grid_6 h4{line-height: 5px;}
-
+.grid_6 h4{margin: 0px;line-height: 5px;}
+.alt{width:470px !important;}
 .button
 {
   background: #2eb6f0;
@@ -176,8 +184,33 @@ nav li
   text-align: center;
 }
 
-.follow #fb:hover, #twitter:hover,#gplus:hover 
+.movies_upcomming,.movies_recent,.movies_hits h2
 {
-  height: 50px;
-  width: 50px;
+  line-height: 15px;
+  padding-bottom: 10px;
+  margin: 0px;
+  padding-top: 15px;
+  background-color: #e3e3e3;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+hr
+{
+
+}
+.grid_4
+{
+  background-color: white;
+  padding-top: 20px;
+  margin: 0px;
+  height: 180px;
+  display: table-cell;
+  vertical-align:middle;
+  text-align:center
+}
+
+.grid_4:hover
+{
+  background-color: lightblue;
 }
