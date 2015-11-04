@@ -126,12 +126,6 @@ nav li
   text-align: center;
 }
 
-.follow #fb:hover, #twitter:hover,#gplus:hover
-{
-  height: 50px;
-  width: 50px;
-}
-
 h2
 {
   line-height: 100px;
